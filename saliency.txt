@@ -1,0 +1,30 @@
+python包：pysaliency from MIT
+https://saliency.tuebingen.ai/evaluation.html
+https://github.com/matthias-k/pysaliency
+使用说明:
+https://blog.csdn.net/weixin_51735061/article/details/125511145
+https://notebook.community/matthias-k/pysaliency/notebooks/LSUN
+下载安装:
+pip install pysaliency
+
+import pysaliency
+
+dataset_location = 'datasets'
+model_location = 'models'
+
+Quickstart:
+mit_stimuli, mit_fixations = pysaliency.external_datasets.get_mit1003(location=dataset_location)
+aim = pysaliency.AIM(location=model_location)
+saliency_map = aim.saliency_map(mit_stimuli.stimuli[0])
+
+plt.imshow(saliency_map)
+
+
+auc = aim.AUC(mit_stimuli, mit_fixations)
+
+If you already have saliency maps for some dataset, you can import them into pysaliency easily:
+my_model = pysaliency.SaliencyMapModelFromDirectory(mit_stimuli, '/path/to/my/saliency_maps')
+auc = my_model.AUC(mit_stimuli, mit_fixations)
+
+显著性目标检测评价指标：
+https://blog.csdn.net/qq_43202953/article/details/111664165

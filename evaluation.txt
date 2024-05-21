@@ -1,0 +1,960 @@
+=====================================================
+0027.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.88      0.42      0.57    643699
+      class1       0.22      0.74      0.34    142733
+
+    accuracy                           0.48    786432
+   macro avg       0.55      0.58      0.45    786432
+weighted avg       0.76      0.48      0.53    786432
+
+precision(average="binary"): 0.22017466700175922
+recall (average="binary"): 0.7365430559155907
+precision(average="micro"): 0.4787152608235677
+recall (average="micro"): 0.4787152608235677
+precision(average="macro"): 0.5492299834918167
+recall (average="macro"): 0.5790439542004957
+precision(average="weighted"): 0.7588419088467847
+recall (average="weighted"): 0.4787152608235677
+AUC: 0.5790439542004957
+MAE: 0.5212847391764323
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7108, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2202)
+branch1:acos_loss_precision=tensor(0.8587)
+branch1:loss_recall        =tensor(0.7365)
+branch1:acos_loss_recall   =tensor(0.4729)
+branch1:loss_fn            =tensor(0.6867, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0037.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.95      0.08      0.15    624483
+      class1       0.22      0.98      0.36    161949
+
+    accuracy                           0.27    786432
+   macro avg       0.58      0.53      0.25    786432
+weighted avg       0.80      0.27      0.19    786432
+
+precision(average="binary"): 0.21712178794133385
+recall (average="binary"): 0.9821178272172103
+precision(average="micro"): 0.2670758565266927
+recall (average="micro"): 0.2670758565266927
+precision(average="macro"): 0.5816863579647278
+recall (average="macro"): 0.5318798807125936
+precision(average="weighted"): 0.7961022373175523
+recall (average="weighted"): 0.2670758565266927
+AUC: 0.5318798807125935
+MAE: 0.7329241434733073
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7456, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2171)
+branch1:acos_loss_precision=tensor(0.8607)
+branch1:loss_recall        =tensor(0.9821)
+branch1:acos_loss_recall   =tensor(0.1206)
+branch1:loss_fn            =tensor(0.5729, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0045.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.90      0.08      0.15    633893
+      class1       0.20      0.96      0.33    152539
+
+    accuracy                           0.25    786432
+   macro avg       0.55      0.52      0.24    786432
+weighted avg       0.76      0.25      0.19    786432
+
+precision(average="binary"): 0.20123427127882312
+recall (average="binary"): 0.9608821350605419
+precision(average="micro"): 0.25262451171875
+recall (average="micro"): 0.25262451171875
+precision(average="macro"): 0.5492368335745554
+recall (average="macro"): 0.52153633124197
+precision(average="weighted"): 0.762239897248592
+recall (average="weighted"): 0.25262451171875
+AUC: 0.52153633124197
+MAE: 0.74737548828125
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7368, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2012)
+branch1:acos_loss_precision=tensor(0.8710)
+branch1:loss_recall        =tensor(0.9609)
+branch1:acos_loss_recall   =tensor(0.1787)
+branch1:loss_fn            =tensor(0.5951, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0077.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       1.00      0.07      0.14    746548
+      class1       0.05      0.99      0.10     39884
+
+    accuracy                           0.12    786432
+   macro avg       0.52      0.53      0.12    786432
+weighted avg       0.95      0.12      0.13    786432
+
+precision(average="binary"): 0.05414475571278325
+recall (average="binary"): 0.9939073312606559
+precision(average="micro"): 0.11914571126302083
+recall (average="micro"): 0.11914571126302083
+precision(average="macro"): 0.5248348912076494
+recall (average="macro"): 0.5331596430088756
+precision(average="weighted"): 0.9477828052159096
+recall (average="weighted"): 0.11914571126302083
+AUC: 0.5331596430088756
+MAE: 0.8808542887369791
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7527, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0541)
+branch1:acos_loss_precision=tensor(0.9655)
+branch1:loss_recall        =tensor(0.9939)
+branch1:acos_loss_recall   =tensor(0.0703)
+branch1:loss_fn            =tensor(0.5990, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0001.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.95      0.04      0.08    735278
+      class1       0.07      0.97      0.12     51154
+
+    accuracy                           0.10    786432
+   macro avg       0.51      0.51      0.10    786432
+weighted avg       0.89      0.10      0.09    786432
+
+precision(average="binary"): 0.0657742774478129
+recall (average="binary"): 0.9674903233373734
+precision(average="micro"): 0.10404332478841145
+recall (average="micro"): 0.10404332478841145
+precision(average="macro"): 0.50842765938871
+recall (average="macro"): 0.50573140360711
+precision(average="weighted"): 0.8934956656078548
+recall (average="weighted"): 0.10404332478841145
+AUC: 0.50573140360711
+MAE: 0.8959566752115885
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7803, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0658)
+branch1:acos_loss_precision=tensor(0.9581)
+branch1:loss_recall        =tensor(0.9675)
+branch1:acos_loss_recall   =tensor(0.1628)
+branch1:loss_fn            =tensor(0.6353, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0029.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.98      0.09      0.16    743320
+      class1       0.06      0.98      0.11     43112
+
+    accuracy                           0.14    786432
+   macro avg       0.52      0.53      0.14    786432
+weighted avg       0.93      0.14      0.16    786432
+
+precision(average="binary"): 0.0584806699705651
+recall (average="binary"): 0.9760623492299128
+precision(average="micro"): 0.1372350056966146
+recall (average="micro"): 0.1372350056966146
+precision(average="macro"): 0.5215247932525752
+recall (average="macro"): 0.5323230004773036
+precision(average="weighted"): 0.9338009970121498
+recall (average="weighted"): 0.1372350056966146
+AUC: 0.5323230004773036
+MAE: 0.8627649943033854
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7531, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0585)
+branch1:acos_loss_precision=tensor(0.9627)
+branch1:loss_recall        =tensor(0.9761)
+branch1:acos_loss_recall   =tensor(0.1396)
+branch1:loss_fn            =tensor(0.6222, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0034.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       1.00      0.48      0.65    726247
+      class1       0.14      0.98      0.24     60185
+
+    accuracy                           0.52    786432
+   macro avg       0.57      0.73      0.45    786432
+weighted avg       0.93      0.52      0.62    786432
+
+precision(average="binary"): 0.13559600048053377
+recall (average="binary"): 0.975209769876215
+precision(average="micro"): 0.5223350524902344
+recall (average="micro"): 0.5223350524902344
+precision(average="macro"): 0.5656881523981944
+recall (average="macro"): 0.7300072631923378
+precision(average="weighted"): 0.9299511006131459
+recall (average="weighted"): 0.5223350524902344
+AUC: 0.7300072631923378
+MAE: 0.4776649475097656
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7332, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.1356)
+branch1:acos_loss_precision=tensor(0.9134)
+branch1:loss_recall        =tensor(0.9752)
+branch1:acos_loss_recall   =tensor(0.1420)
+branch1:loss_fn            =tensor(0.5984, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0047.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.87      0.31      0.46    695246
+      class1       0.11      0.65      0.19     91186
+
+    accuracy                           0.35    786432
+   macro avg       0.49      0.48      0.32    786432
+weighted avg       0.78      0.35      0.43    786432
+
+precision(average="binary"): 0.11058907153038022
+recall (average="binary"): 0.6517776851709692
+precision(average="micro"): 0.35182952880859375
+recall (average="micro"): 0.35182952880859375
+precision(average="macro"): 0.4915360521701538
+recall (average="macro"): 0.4821335387074328
+precision(average="weighted"): 0.7841421937377167
+recall (average="weighted"): 0.35182952880859375
+AUC: 0.4821335387074328
+MAE: 0.6481704711914062
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7692, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.1106)
+branch1:acos_loss_precision=tensor(0.9295)
+branch1:loss_recall        =tensor(0.6518)
+branch1:acos_loss_recall   =tensor(0.5480)
+branch1:loss_fn            =tensor(0.7559, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0017.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.96      0.22      0.36    747962
+      class1       0.05      0.82      0.10     38470
+
+    accuracy                           0.25    786432
+   macro avg       0.51      0.52      0.23    786432
+weighted avg       0.92      0.25      0.35    786432
+
+precision(average="binary"): 0.05165161540757461
+recall (average="binary"): 0.823212893163504
+precision(average="micro"): 0.25199000040690106
+recall (average="micro"): 0.25199000040690106
+precision(average="macro"): 0.5062043311162682
+recall (average="macro"): 0.5229115663605642
+precision(average="weighted"): 0.9162862140681222
+recall (average="weighted"): 0.25199000040690106
+AUC: 0.5229115663605642
+MAE: 0.748009999593099
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7651, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0517)
+branch1:acos_loss_precision=tensor(0.9671)
+branch1:loss_recall        =tensor(0.8232)
+branch1:acos_loss_recall   =tensor(0.3844)
+branch1:loss_fn            =tensor(0.7126, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0032.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.75      0.06      0.11    595693
+      class1       0.24      0.94      0.39    190739
+
+    accuracy                           0.27    786432
+   macro avg       0.50      0.50      0.25    786432
+weighted avg       0.63      0.27      0.17    786432
+
+precision(average="binary"): 0.2421078190022055
+recall (average="binary"): 0.9409874226036626
+precision(average="micro"): 0.2712554931640625
+recall (average="micro"): 0.2712554931640625
+precision(average="macro"): 0.49625625112027916
+recall (average="macro"): 0.49889844326947236
+precision(average="weighted"): 0.6271237948874993
+recall (average="weighted"): 0.2712554931640625
+AUC: 0.49889844326947236
+MAE: 0.7287445068359375
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7567, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2421)
+branch1:acos_loss_precision=tensor(0.8443)
+branch1:loss_recall        =tensor(0.9410)
+branch1:acos_loss_recall   =tensor(0.2198)
+branch1:loss_fn            =tensor(0.6038, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0063.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.93      0.37      0.53    731618
+      class1       0.07      0.62      0.12     54814
+
+    accuracy                           0.39    786432
+   macro avg       0.50      0.50      0.33    786432
+weighted avg       0.87      0.39      0.50    786432
+
+precision(average="binary"): 0.06926948559729292
+recall (average="binary"): 0.6221768161418616
+precision(average="micro"): 0.3909912109375
+recall (average="micro"): 0.3909912109375
+precision(average="macro"): 0.4994249119282445
+recall (average="macro"): 0.497923614421786
+precision(average="weighted"): 0.8696170113882019
+recall (average="weighted"): 0.3909912109375
+AUC: 0.497923614421786
+MAE: 0.6090087890625
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7556, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0693)
+branch1:acos_loss_precision=tensor(0.9559)
+branch1:loss_recall        =tensor(0.6222)
+branch1:acos_loss_recall   =tensor(0.5725)
+branch1:loss_fn            =tensor(0.7716, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0006.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.98      0.45      0.61    685075
+      class1       0.20      0.94      0.33    101357
+
+    accuracy                           0.51    786432
+   macro avg       0.59      0.69      0.47    786432
+weighted avg       0.88      0.51      0.58    786432
+
+precision(average="binary"): 0.20053470873939575
+recall (average="binary"): 0.9405763785431692
+precision(average="micro"): 0.509063720703125
+recall (average="micro"): 0.509063720703125
+precision(average="macro"): 0.5905851020041932
+recall (average="macro"): 0.6928988523376722
+precision(average="weighted"): 0.8800944752948796
+recall (average="weighted"): 0.509063720703125
+AUC: 0.6928988523376722
+MAE: 0.490936279296875
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7186, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2005)
+branch1:acos_loss_precision=tensor(0.8715)
+branch1:loss_recall        =tensor(0.9406)
+branch1:acos_loss_recall   =tensor(0.2206)
+branch1:loss_fn            =tensor(0.6054, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0021.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.94      0.07      0.13    728211
+      class1       0.08      0.95      0.14     58221
+
+    accuracy                           0.13    786432
+   macro avg       0.51      0.51      0.13    786432
+weighted avg       0.88      0.13      0.13    786432
+
+precision(average="binary"): 0.07535577220232285
+recall (average="binary"): 0.9507050720530393
+precision(average="micro"): 0.13273111979166666
+recall (average="micro"): 0.13273111979166666
+precision(average="macro"): 0.5100301586094943
+recall (average="macro"): 0.5090192892065732
+precision(average="weighted"): 0.8803450646012911
+recall (average="weighted"): 0.13273111979166666
+AUC: 0.5090192892065732
+MAE: 0.8672688802083334
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7582, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0754)
+branch1:acos_loss_precision=tensor(0.9520)
+branch1:loss_recall        =tensor(0.9507)
+branch1:acos_loss_recall   =tensor(0.2007)
+branch1:loss_fn            =tensor(0.6406, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0056.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       1.00      0.35      0.52    780390
+      class1       0.01      0.84      0.02      6042
+
+    accuracy                           0.35    786432
+   macro avg       0.50      0.59      0.27    786432
+weighted avg       0.99      0.35      0.51    786432
+
+precision(average="binary"): 0.009882572474800708
+recall (average="binary"): 0.8379675604104602
+precision(average="micro"): 0.3537495930989583
+recall (average="micro"): 0.3537495930989583
+precision(average="macro"): 0.5031555458938961
+recall (average="macro"): 0.5939841005578743
+precision(average="weighted"): 0.988849083823596
+recall (average="weighted"): 0.3537495930989583
+AUC: 0.5939841005578743
+MAE: 0.6462504069010416
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7645, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0099)
+branch1:acos_loss_precision=tensor(0.9937)
+branch1:loss_recall        =tensor(0.8380)
+branch1:acos_loss_recall   =tensor(0.3675)
+branch1:loss_fn            =tensor(0.7172, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0043.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.99      0.05      0.09    780265
+      class1       0.01      0.93      0.02      6167
+
+    accuracy                           0.06    786432
+   macro avg       0.50      0.49      0.05    786432
+weighted avg       0.98      0.06      0.09    786432
+
+precision(average="binary"): 0.007649347591064299
+recall (average="binary"): 0.9270309712988487
+precision(average="micro"): 0.05634943644205729
+recall (average="micro"): 0.05634943644205729
+precision(average="macro"): 0.49806253488957025
+recall (average="macro"): 0.48824939015622654
+precision(average="weighted"): 0.9807843308762529
+recall (average="weighted"): 0.05634943644205729
+AUC: 0.48824939015622654
+MAE: 0.9436505635579427
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7779, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0076)
+branch1:acos_loss_precision=tensor(0.9951)
+branch1:loss_recall        =tensor(0.9270)
+branch1:acos_loss_recall   =tensor(0.2447)
+branch1:loss_fn            =tensor(0.6782, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0071.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.56      0.02      0.03    693885
+      class1       0.11      0.91      0.20     92547
+
+    accuracy                           0.12    786432
+   macro avg       0.33      0.46      0.11    786432
+weighted avg       0.50      0.12      0.05    786432
+
+precision(average="binary"): 0.10930396337884894
+recall (average="binary"): 0.9056047197640118
+precision(average="micro"): 0.12046432495117188
+recall (average="micro"): 0.12046432495117188
+precision(average="macro"): 0.3324975721685212
+recall (average="macro"): 0.4606754224211875
+precision(average="weighted"): 0.5031605135574321
+recall (average="weighted"): 0.12046432495117188
+AUC: 0.4606754224211875
+MAE: 0.8795356750488281
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7434, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.1093)
+branch1:acos_loss_precision=tensor(0.9303)
+branch1:loss_recall        =tensor(0.9056)
+branch1:acos_loss_recall   =tensor(0.2788)
+branch1:loss_fn            =tensor(0.6556, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0051.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.97      0.03      0.07    750976
+      class1       0.05      0.97      0.09     35456
+
+    accuracy                           0.08    786432
+   macro avg       0.51      0.50      0.08    786432
+weighted avg       0.92      0.08      0.07    786432
+
+precision(average="binary"): 0.0454367251141937
+recall (average="binary"): 0.9740805505415162
+precision(average="micro"): 0.07621510823567708
+recall (average="micro"): 0.07621510823567708
+precision(average="macro"): 0.5052601558701667
+recall (average="macro"): 0.503952267132016
+precision(average="weighted"): 0.923621643162792
+recall (average="weighted"): 0.07621510823567708
+AUC: 0.5039522671320159
+MAE: 0.9237848917643229
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7637, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0454)
+branch1:acos_loss_precision=tensor(0.9711)
+branch1:loss_recall        =tensor(0.9741)
+branch1:acos_loss_recall   =tensor(0.1453)
+branch1:loss_fn            =tensor(0.6302, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0015.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.94      0.34      0.50    759421
+      class1       0.02      0.40      0.04     27011
+
+    accuracy                           0.34    786432
+   macro avg       0.48      0.37      0.27    786432
+weighted avg       0.91      0.34      0.49    786432
+
+precision(average="binary"): 0.021394529529774428
+recall (average="binary"): 0.4046869793787716
+precision(average="micro"): 0.34377797444661456
+recall (average="micro"): 0.34377797444661456
+precision(average="macro"): 0.4815147031602819
+recall (average="macro"): 0.37314927462290753
+precision(average="weighted"): 0.9100280601558263
+recall (average="weighted"): 0.34377797444661456
+AUC: 0.37314927462290753
+MAE: 0.6562220255533854
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7710, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0214)
+branch1:acos_loss_precision=tensor(0.9864)
+branch1:loss_recall        =tensor(0.4047)
+branch1:acos_loss_recall   =tensor(0.7348)
+branch1:loss_fn            =tensor(0.8445, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0041.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.98      0.42      0.59    761543
+      class1       0.04      0.69      0.07     24889
+
+    accuracy                           0.43    786432
+   macro avg       0.51      0.55      0.33    786432
+weighted avg       0.95      0.43      0.57    786432
+
+precision(average="binary"): 0.037282703148812046
+recall (average="binary"): 0.6860862228293624
+precision(average="micro"): 0.4293835957845052
+recall (average="micro"): 0.4293835957845052
+precision(average="macro"): 0.5067464493461481
+recall (average="macro"): 0.5535400892609749
+precision(average="weighted"): 0.9464950181877675
+recall (average="weighted"): 0.4293835957845052
+AUC: 0.5535400892609749
+MAE: 0.5706164042154948
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7596, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0373)
+branch1:acos_loss_precision=tensor(0.9763)
+branch1:loss_recall        =tensor(0.6861)
+branch1:acos_loss_recall   =tensor(0.5187)
+branch1:loss_fn            =tensor(0.7619, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0039.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.86      0.24      0.38    618751
+      class1       0.24      0.86      0.37    167681
+
+    accuracy                           0.37    786432
+   macro avg       0.55      0.55      0.37    786432
+weighted avg       0.73      0.37      0.38    786432
+
+precision(average="binary"): 0.23524222165585115
+recall (average="binary"): 0.8587019399932013
+precision(average="micro"): 0.37465794881184894
+recall (average="micro"): 0.37465794881184894
+precision(average="macro"): 0.5496736723715051
+recall (average="macro"): 0.5510921873845321
+precision(average="weighted"): 0.730020599345878
+recall (average="weighted"): 0.37465794881184894
+AUC: 0.5510921873845321
+MAE: 0.625342051188151
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7323, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.2352)
+branch1:acos_loss_precision=tensor(0.8488)
+branch1:loss_recall        =tensor(0.8587)
+branch1:acos_loss_recall   =tensor(0.3425)
+branch1:loss_fn            =tensor(0.6425, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0074.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.87      0.02      0.05    740088
+      class1       0.06      0.94      0.11     46344
+
+    accuracy                           0.08    786432
+   macro avg       0.46      0.48      0.08    786432
+weighted avg       0.82      0.08      0.05    786432
+
+precision(average="binary"): 0.05697166874952712
+recall (average="binary"): 0.9423657862938029
+precision(average="micro"): 0.07738749186197917
+recall (average="micro"): 0.07738749186197917
+precision(average="macro"): 0.4612333416766066
+recall (average="macro"): 0.48279435016282385
+precision(average="weighted"): 0.8178491838894412
+recall (average="weighted"): 0.07738749186197917
+AUC: 0.48279435016282385
+MAE: 0.9226125081380209
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7751, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0570)
+branch1:acos_loss_precision=tensor(0.9637)
+branch1:loss_recall        =tensor(0.9424)
+branch1:acos_loss_recall   =tensor(0.2172)
+branch1:loss_fn            =tensor(0.6553, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0061.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.92      0.45      0.60    731648
+      class1       0.07      0.52      0.12     54784
+
+    accuracy                           0.45    786432
+   macro avg       0.50      0.48      0.36    786432
+weighted avg       0.87      0.45      0.57    786432
+
+precision(average="binary"): 0.0653196235092638
+recall (average="binary"): 0.5179797021028038
+precision(average="micro"): 0.45009485880533856
+recall (average="micro"): 0.45009485880533856
+precision(average="macro"): 0.4951497620101724
+recall (average="macro"): 0.4814957555300583
+precision(average="weighted"): 0.8650947119438971
+recall (average="weighted"): 0.45009485880533856
+AUC: 0.4814957555300583
+MAE: 0.5499051411946615
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7540, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0653)
+branch1:acos_loss_precision=tensor(0.9584)
+branch1:loss_recall        =tensor(0.5180)
+branch1:acos_loss_recall   =tensor(0.6534)
+branch1:loss_fn            =tensor(0.8005, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0069.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.97      0.40      0.56    733925
+      class1       0.09      0.81      0.16     52507
+
+    accuracy                           0.42    786432
+   macro avg       0.53      0.60      0.36    786432
+weighted avg       0.91      0.42      0.53    786432
+
+precision(average="binary"): 0.08749948540611749
+recall (average="binary"): 0.8095872931228217
+precision(average="micro"): 0.4235877990722656
+recall (average="micro"): 0.4235877990722656
+precision(average="macro"): 0.5271203333647755
+recall (average="macro"): 0.6027798168104145
+precision(average="weighted"): 0.9080376395963287
+recall (average="weighted"): 0.4235877990722656
+AUC: 0.6027798168104145
+MAE: 0.5764122009277344
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7463, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0875)
+branch1:acos_loss_precision=tensor(0.9442)
+branch1:loss_recall        =tensor(0.8096)
+branch1:acos_loss_recall   =tensor(0.3994)
+branch1:loss_fn            =tensor(0.7040, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0079.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.97      0.33      0.50    774520
+      class1       0.01      0.25      0.01     11912
+
+    accuracy                           0.33    786432
+   macro avg       0.49      0.29      0.25    786432
+weighted avg       0.95      0.33      0.49    786432
+
+precision(average="binary"): 0.005821251520871857
+recall (average="binary"): 0.2534419073203492
+precision(average="micro"): 0.33307520548502606
+recall (average="micro"): 0.33307520548502606
+precision(average="macro"): 0.4863077469074964
+recall (average="macro"): 0.29387093041997425
+precision(average="weighted"): 0.9522384888836659
+recall (average="weighted"): 0.33307520548502606
+AUC: 0.29387093041997425
+MAE: 0.666924794514974
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7727, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0058)
+branch1:acos_loss_precision=tensor(0.9963)
+branch1:loss_recall        =tensor(0.2534)
+branch1:acos_loss_recall   =tensor(0.8369)
+branch1:loss_fn            =tensor(0.8846, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0019.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.87      0.23      0.36    673597
+      class1       0.15      0.80      0.25    112835
+
+    accuracy                           0.31    786432
+   macro avg       0.51      0.51      0.30    786432
+weighted avg       0.77      0.31      0.34    786432
+
+precision(average="binary"): 0.1479432086337519
+recall (average="binary"): 0.8023219745646297
+precision(average="micro"): 0.3086509704589844
+recall (average="micro"): 0.3086509704589844
+precision(average="macro"): 0.5100633594226591
+recall (average="macro"): 0.514138776672707
+precision(average="weighted"): 0.768271596112785
+recall (average="weighted"): 0.3086509704589844
+AUC: 0.514138776672707
+MAE: 0.6913490295410156
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7405, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.1479)
+branch1:acos_loss_precision=tensor(0.9055)
+branch1:loss_recall        =tensor(0.8023)
+branch1:acos_loss_recall   =tensor(0.4072)
+branch1:loss_fn            =tensor(0.6898, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0009.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.97      0.05      0.09    755339
+      class1       0.04      0.96      0.08     31093
+
+    accuracy                           0.08    786432
+   macro avg       0.50      0.50      0.08    786432
+weighted avg       0.93      0.08      0.09    786432
+
+precision(average="binary"): 0.03980490412240262
+recall (average="binary"): 0.9580291383912778
+precision(average="micro"): 0.0846417744954427
+recall (average="micro"): 0.0846417744954427
+precision(average="macro"): 0.5027683729687167
+recall (average="macro"): 0.5033592674039931
+precision(average="weighted"): 0.929123659195711
+recall (average="weighted"): 0.0846417744954427
+AUC: 0.5033592674039931
+MAE: 0.9153582255045573
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7585, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0398)
+branch1:acos_loss_precision=tensor(0.9747)
+branch1:loss_recall        =tensor(0.9580)
+branch1:acos_loss_recall   =tensor(0.1851)
+branch1:loss_fn            =tensor(0.6443, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0012.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.90      0.39      0.55    736951
+      class1       0.04      0.38      0.07     49481
+
+    accuracy                           0.39    786432
+   macro avg       0.47      0.39      0.31    786432
+weighted avg       0.85      0.39      0.52    786432
+
+precision(average="binary"): 0.04051388689605547
+recall (average="binary"): 0.38232857056243813
+precision(average="micro"): 0.3914337158203125
+recall (average="micro"): 0.3914337158203125
+precision(average="macro"): 0.47242467799249205
+recall (average="macro"): 0.38718681595150783
+precision(average="weighted"): 0.8499852446467829
+recall (average="weighted"): 0.3914337158203125
+AUC: 0.3871868159515079
+MAE: 0.6085662841796875
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7558, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0405)
+branch1:acos_loss_precision=tensor(0.9742)
+branch1:loss_recall        =tensor(0.3823)
+branch1:acos_loss_recall   =tensor(0.7502)
+branch1:loss_fn            =tensor(0.8412, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0065.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       1.00      0.46      0.63    785503
+      class1       0.00      0.99      0.00       929
+
+    accuracy                           0.46    786432
+   macro avg       0.50      0.72      0.32    786432
+weighted avg       1.00      0.46      0.63    786432
+
+precision(average="binary"): 0.0021592892907239844
+recall (average="binary"): 0.9892357373519914
+precision(average="micro"): 0.45997365315755206
+recall (average="micro"): 0.45997365315755206
+precision(average="macro"): 0.5010657876660172
+recall (average="macro"): 0.7242917209719131
+precision(average="weighted"): 0.9987935849279513
+recall (average="weighted"): 0.45997365315755206
+AUC: 0.7242917209719131
+MAE: 0.5400263468424479
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7457, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0022)
+branch1:acos_loss_precision=tensor(0.9986)
+branch1:loss_recall        =tensor(0.9892)
+branch1:acos_loss_recall   =tensor(0.0935)
+branch1:loss_fn            =tensor(0.6186, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0053.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       0.99      0.32      0.48    764303
+      class1       0.04      0.94      0.07     22129
+
+    accuracy                           0.34    786432
+   macro avg       0.52      0.63      0.28    786432
+weighted avg       0.97      0.34      0.47    786432
+
+precision(average="binary"): 0.03848495672177384
+recall (average="binary"): 0.9397171132902526
+precision(average="micro"): 0.3376668294270833
+recall (average="micro"): 0.3376668294270833
+precision(average="macro"): 0.5165320988671224
+recall (average="macro"): 0.6299763371588755
+precision(average="weighted"): 0.9676762024572382
+recall (average="weighted"): 0.3376668294270833
+AUC: 0.6299763371588755
+MAE: 0.6623331705729166
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7470, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0385)
+branch1:acos_loss_precision=tensor(0.9755)
+branch1:loss_recall        =tensor(0.9397)
+branch1:acos_loss_recall   =tensor(0.2222)
+branch1:loss_fn            =tensor(0.6547, grad_fn=<AddBackward0>)
+=====================================================
+
+=====================================================
+0024.mat
+report:
+              precision    recall  f1-score   support
+
+      class0       1.00      0.05      0.09    767785
+      class1       0.02      1.00      0.05     18647
+
+    accuracy                           0.07    786432
+   macro avg       0.51      0.52      0.07    786432
+weighted avg       0.97      0.07      0.09    786432
+
+precision(average="binary"): 0.024781465615032496
+recall (average="binary"): 0.9958170215047997
+precision(average="micro"): 0.07071558634440105
+recall (average="micro"): 0.07071558634440105
+precision(average="macro"): 0.5113401428608539
+recall (average="macro"): 0.5220324516994097
+precision(average="weighted"): 0.9748253448294668
+recall (average="weighted"): 0.07071558634440105
+AUC: 0.5220324516994097
+MAE: 0.929284413655599
+others:
+-----------------------------------------------------
+branch1:loss_crossentropy  =tensor(0.7532, grad_fn=<NllLossBackward>)
+branch1:loss_precision     =tensor(0.0248)
+branch1:acos_loss_precision=tensor(0.9842)
+branch1:loss_recall        =tensor(0.9958)
+branch1:acos_loss_recall   =tensor(0.0582)
+branch1:loss_fn            =tensor(0.6024, grad_fn=<AddBackward0>)
+=====================================================
+

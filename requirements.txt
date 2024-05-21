@@ -1,0 +1,62 @@
+boltons==21.0.0
+cached-property @ file:///tmp/build/80754af9/cached-property_1600785575025/work
+certifi @ file:///C:/b/abs_ac29jvt43w/croot/certifi_1665076682579/work/certifi
+charset-normalizer==2.1.1
+cloudpickle @ file:///Users/ktietz/demo/mc3/conda-bld/cloudpickle_1629142150447/work
+colorama==0.4.6
+contextlib2==21.6.0
+cycler==0.10.0
+Cython @ file:///C:/b/abs_0438epndxm/croots/recipe/cython_1663692771227/work
+cytoolz==0.11.0
+dask @ file:///tmp/build/80754af9/dask-core_1630523592567/work
+deprecation==2.1.0
+dill==0.3.6
+fonttools==4.25.0
+fsspec @ file:///tmp/build/80754af9/fsspec_1632413898837/work
+h5py==2.9.0
+idna==3.4
+imagecodecs @ file:///C:/ci/imagecodecs_1623228459942/work
+imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+importlib-metadata==5.0.0
+joblib @ file:///C:/b/abs_e60_bwl1v6/croot/joblib_1666298845728/work
+kiwisolver @ file:///C:/ci/kiwisolver_1612282606037/work
+llvmlite==0.39.1
+locket==0.2.1
+matplotlib @ file:///C:/ci/matplotlib-suite_1628011511716/work
+mkl-service==2.4.0
+munkres==1.1.4
+natsort==8.2.0
+networkx @ file:///tmp/build/80754af9/networkx_1627459939258/work
+numba==0.56.4
+numpy @ file:///D:/bld/numpy_1629092230867/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+opencv-python @ file:///D:/ProgramFiles/anaconda3/pkgs/opencv_python-4.5.3.56-cp38-cp38-win_amd64.whl
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+partd @ file:///tmp/build/80754af9/partd_1618000087440/work
+piexif==1.1.3
+Pillow @ file:///C:/ci/pillow_1625663293593/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyreadline==2.1
+pysaliency==0.2.21
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+PyWavelets @ file:///C:/ci/pywavelets_1601658407916/work
+PyYAML==5.4.1
+requests==2.28.1
+schema==0.7.5
+scikit-image==0.18.1
+scikit-learn @ file:///C:/b/abs_32ip6y8czd/croot/scikit-learn_1665482026161/work
+scipy @ file:///C:/ci/scipy_1630606942584/work
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
+toolz @ file:///home/linux1/recipes/ci/toolz_1610987900194/work
+torch==1.8.0
+torchaudio==0.8.0
+torchmetrics==0.10.1
+torchvision==0.9.0
+tornado @ file:///C:/ci/tornado_1606942392901/work
+tqdm==4.64.1
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1632313171031/work
+urllib3==1.26.12
+wincertstore==0.2
+zipp==3.10.0
